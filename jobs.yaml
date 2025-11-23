@@ -1,5 +1,5 @@
 jobs:
   - name: change-zoom-bg
-    schedule: "@daily"
-    command: "/usr/bin/python3 /Users/kostantin/path/to/project/main.py"
+    schedule: "*/1 * * * *"
+    command: "/Users/kostantin/Desktop/python/pythonProject2/Безіменний/.venv/bin/python3.14 /Users/kostantin/Desktop/python/pythonProject2/Безіменний/main.py"
     enabled: true

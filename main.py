@@ -23,8 +23,10 @@ def find_photo_of_the_day_link(html):
     return photo_of_the_day_source
 
 def download_image(url):
-    response = requests.get(url)
+    response = requests.get(url, headers=headers)
     with open("image.jpg", "wb") as f:
+        f.write(response.content)
+    with open("image2.jpg", "rb") as f:
         f.write(response.content)
 
 def change_wallpaper():
