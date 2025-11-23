@@ -6,8 +6,11 @@ wiki_url = "https://uk.wikipedia.org/wiki/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D
 path_to_file = '/Users/kostantin/Library/Application Support/zoom.us/data/VirtualBkgnd_Custom/' \
                '956B6684-68CA-44AF-861C-07E57B34C2D9'
 
+headers = {
+    "User-Agent": "MyWikiScript/1.0 (your_email@example.com)"
+}
 def get_html(url):
-    r = requests.get(url)
+    r = requests.get(url, headers=headers)
     text = r.text
     return text
 
