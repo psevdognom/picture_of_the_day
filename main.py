@@ -26,8 +26,7 @@ def download_image(url):
     response = requests.get(url, headers=headers)
     with open("image.jpg", "wb") as f:
         f.write(response.content)
-    with open("image2.jpg", "rb") as f:
-        f.write(response.content)
+    open('file2.txt', 'w').close()
 
 def change_wallpaper():
     shutil.copy2('image.jpg', path_to_file)
