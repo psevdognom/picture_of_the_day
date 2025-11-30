@@ -10,7 +10,7 @@ Downloads previous "Picture of the Day" images from Ukrainian Wikipedia and cycl
 
 ## Files
 \- `main.py` — script that downloads historical POTD images and copies them to the Zoom folder.  
-\- `jobs.yaml` — example `cronn` job config (runs every 5 minutes).  
+\- `jobs.yaml` — example `cron` job config (runs every 5 minutes).  
 \- `requirements.txt` — Python dependencies.  
 \- `README.md` — this file.
 
