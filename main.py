@@ -4,7 +4,7 @@ import shutil
 
 wiki_url = "https://uk.wikipedia.org/wiki/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B0_%D1%81%D1%82%D0%BE%D1%80%D1%96%D0%BD%D0%BA%D0%B0"
 path_to_file = '/Users/kostantin/Library/Application Support/zoom.us/data/VirtualBkgnd_Custom/' \
-               '956B6684-68CA-44AF-861C-07E57B34C2D9'
+               '853FBC6B-84A9-4D1F-9BD6-21F823AF0E2F '
 
 headers = {
     "User-Agent": "MyWikiScript/1.0 (your_email@example.com)"
