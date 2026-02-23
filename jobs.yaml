@@ -1,5 +1,5 @@
 jobs:
   - name: change-zoom-bg
-    spec: "* * * * *"
+    spec: "*/5 * * * *"
     command: "/Users/kostantin/Desktop/python/pythonProject2/Безіменний/.venv/bin/python3.14 /Users/kostantin/Desktop/python/pythonProject2/Безіменний/main.py"
     enabled: true
